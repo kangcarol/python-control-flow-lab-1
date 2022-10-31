@@ -15,7 +15,7 @@
 
 fib = []
 
-for num in range(50):
+for num in range(51):
   if num == 0 or num == 1:
     fib.append(num)
   else:
