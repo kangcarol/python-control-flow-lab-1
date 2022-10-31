@@ -13,4 +13,14 @@
 
 # Hint: The next number is found by adding the two numbers before it
 
+fib = []
+
+for num in range(50):
+  if num == 0 or num == 1:
+    fib.append(num)
+  else:
+    fib.append(fib[-1] + fib[-2])
+
+for idx, n in enumerate(fib):
+  print(f'term: {str(idx)} / number: {str(n)}')
 
